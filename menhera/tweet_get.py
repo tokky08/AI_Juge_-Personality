@@ -42,7 +42,10 @@ for train in train_list:
         url = 'https://api.twitter.com/1.1/statuses/user_timeline.json'
         
         # パラメータ（スクリーンネーム、1回に取得するツイートの件数）を設定する
-        params = {'screen_name':screen_name, 'count':200}
+        params = {
+            'screen_name': screen_name,
+            'count': 3
+        }
 
         # Twitter APIにアクセスし、データを読み込む
         response = session.get(url, params = params)
