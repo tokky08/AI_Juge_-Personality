@@ -1,1 +1,3 @@
-# AI_Juge_-Personality
+# AI_Juge_Personality
+
+Pythonで自然言語処理を使ってTwitterの投稿からそのアカウントがメンヘラかメンヘラでないかを判別するAIを作成します。
